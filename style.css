@@ -1,0 +1,20 @@
+body {
+    padding: 0 40px;
+    background-color:#0f172a;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 40px;
+    border-botton: 1px solid #333;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+

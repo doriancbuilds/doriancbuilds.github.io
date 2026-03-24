@@ -1,20 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0 40px;
     background-color:#0f172a;
-    color: rgb(255, 255, 255);
+    color: white;
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #0f172a;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 80px 40px; 
+    border-bottom: 1px solid #334155;
+}
+
+
+.hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 20px;
+    color: #cbd5e1;
+}
+
 
 section {
     padding: 40px;
     border-botton: 1px solid #333;
 }
 
-h1 {
-    margin: 0 0 10px 0;
-    font-size: 40px;
+h2 {
+    margin-top: 0;
+    font-size: 28px;
 }
 
-h2 {
-    margin-bottom: 10px;
+p { 
+    line-height: 1.6;
+    max-width: 700px;
 }
+
+
 

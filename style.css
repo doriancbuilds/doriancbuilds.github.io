@@ -27,6 +27,9 @@ nav {
     letter-spacing: 0.3px;
 }
 
+.nav-right a {
+    color: white;
+}
 .nav-right a:hover {
     color: #60a5fa;
 }
@@ -184,7 +187,6 @@ section p {
     .nav-right a {
         margin-left: 0;
         margin-right: 18px;
-        color: white;
     }
 
     .hero {
@@ -203,6 +205,4 @@ section p {
         padding: 55px 24px;
     }
 }
-
-
 
